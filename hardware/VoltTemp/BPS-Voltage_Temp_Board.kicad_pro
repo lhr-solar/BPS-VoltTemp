@@ -631,14 +631,26 @@
           "label": "MAXIMUM_PACKAGE_HEIGHT",
           "name": "MAXIMUM_PACKAGE_HEIGHT",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "P/N"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -716,6 +728,10 @@
     [
       "4a5d6278-49ce-4bbe-b320-bfc4455852c3",
       "TemperatureFilter3"
+    ],
+    [
+      "775d633a-ad93-41b4-ac5c-f8bf894051fa",
+      "FaultIndicators"
     ],
     [
       "0071554d-4281-4843-9531-44fa66f109f1",

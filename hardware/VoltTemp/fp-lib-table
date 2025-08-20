@@ -7,4 +7,5 @@
   (lib (name "UTSVT_Passives")(type "KiCad")(uri "${KIPRJMOD}/../lib/KiCAD-Bild/UTSVT_Passives.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Power")(type "KiCad")(uri "${KIPRJMOD}/../lib/KiCAD-Bild/UTSVT_Power.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Special")(type "KiCad")(uri "${KIPRJMOD}/../lib/KiCAD-Bild/UTSVT_Special.pretty")(options "")(descr ""))
+  (lib (name "VoltTemp")(type "KiCad")(uri "/Users/lakshaygupta/Documents/LHR/BPS/BPS-VoltTempPCB/hardware/lib/VoltTemp.pretty")(options "")(descr ""))
 )
