@@ -1225,6 +1225,12 @@
 		(uuid "4812fb4b-5be5-44fe-af5f-c708ff959e96")
 	)
 	(junction
+		(at 125.73 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c01442a-bff0-47c5-b5d3-8f0c68b948ac")
+	)
+	(junction
 		(at 135.89 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1512,6 +1518,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 39.37) (xy 125.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfe8e72-c83e-41cb-aab7-683f4bdeee93")
+	)
+	(wire
+		(pts
 			(xy 71.12 45.72) (xy 86.36 45.72)
 		)
 		(stroke
@@ -1612,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 44.45) (xy 127 44.45)
+			(xy 114.3 44.45) (xy 125.73 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1792,6 +1808,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 44.45) (xy 127 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77d9a60-fa68-41b1-82c5-fd0aaff31718")
+	)
+	(wire
+		(pts
 			(xy 114.3 59.69) (xy 127 59.69)
 		)
 		(stroke
@@ -1859,6 +1885,16 @@
 			(type default)
 		)
 		(uuid "ec8d17a9-97f6-42d9-9b2c-fce8ae3a1a09")
+	)
+	(wire
+		(pts
+			(xy 123.19 39.37) (xy 125.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda93b4d-12ff-4e06-b8fd-34a0d495694a")
 	)
 	(wire
 		(pts
@@ -2270,6 +2306,17 @@
 			(justify left)
 		)
 		(uuid "13b2e16d-2b6a-438b-9fff-e84bccafe64f")
+	)
+	(hierarchical_label "last_cell"
+		(shape output)
+		(at 123.19 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f841f6f-db87-41b6-989e-80c398137761")
 	)
 	(symbol
 		(lib_id "Device:C")
