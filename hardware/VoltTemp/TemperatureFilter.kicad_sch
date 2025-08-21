@@ -857,12 +857,6 @@
 		)
 	)
 	(junction
-		(at 59.69 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a0d2750-8273-4ef6-8363-5fa88a7e074a")
-	)
-	(junction
 		(at 82.55 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -923,16 +917,6 @@
 			(type default)
 		)
 		(uuid "0517be45-fce0-4b26-bf49-77d4201a585b")
-	)
-	(wire
-		(pts
-			(xy 57.15 58.42) (xy 59.69 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11015c44-5349-432c-b4b2-76c089027f00")
 	)
 	(wire
 		(pts
@@ -1166,23 +1150,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 58.42) (xy 71.12 58.42)
+			(xy 57.15 58.42) (xy 71.12 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9023ffb5-7592-442d-81ac-1f2488a3e3ae")
-	)
-	(wire
-		(pts
-			(xy 59.69 57.15) (xy 59.69 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "966cd4fb-59f2-4969-8aba-9d85e0bed440")
 	)
 	(wire
 		(pts
@@ -2202,89 +2176,6 @@
 				)
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9/eab5a88a-8eae-40be-bde5-afb3b6331798"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 59.69 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f36cd18-153b-4b18-b088-2443abb9d638")
-		(property "Reference" "TP6"
-			(at 62.23 52.5779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_TempIn"
-			(at 62.23 55.1179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 64.77 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "828a5c61-fe1d-4ab4-84d0-c1d700de4ee7")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9/0071554d-4281-4843-9531-44fa66f109f1"
-					(reference "TP10")
-					(unit 1)
-				)
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9/0b6a6f29-4cfd-471f-918e-165d9124c249"
-					(reference "TP8")
-					(unit 1)
-				)
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9/305db25e-0e18-41b2-b157-490c9c9ed149"
-					(reference "TP6")
-					(unit 1)
-				)
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9/4a5d6278-49ce-4bbe-b320-bfc4455852c3"
-					(reference "TP9")
-					(unit 1)
-				)
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9/eab5a88a-8eae-40be-bde5-afb3b6331798"
-					(reference "TP7")
 					(unit 1)
 				)
 			)

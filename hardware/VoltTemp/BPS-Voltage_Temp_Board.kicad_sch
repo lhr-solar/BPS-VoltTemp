@@ -2740,6 +2740,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "I2C"
+		(members "I2C_SDA" "I2C_SCL")
+	)
 	(rectangle
 		(start 157.48 67.945)
 		(end 201.93 89.535)
@@ -2811,7 +2814,7 @@
 		)
 		(uuid "0fa55c4f-fb9b-4c32-b278-f923ab5b29f7")
 	)
-	(text "Schematic Todo:\n- Proper CubeMX pinout [X]\n- Add extra GPIO pins to logic analyzer []\n- Assign footprints and P/N [X]\n- Assign LSC P/N []\n- Temperature op amp values\n- Add debouncing to bms boot button []\n- Fix i2c bus[]\n- LTSpice screenshots for thermistor []\n- Derate PTC fuses []\n- Add EL3H7 to dl [X]\n- Make sure optos are fine when regout is 2.5V [X]\n- Molex Connector pn [X]\n- Fix all the datasheet as embed symbols [X]\n- Add bypass caps to i2c isolator [X]\n- Change CAN and power connector [X]\n- Fix PB16 (overlapping with PP IMON []"
+	(text "Schematic Todo:\n- Proper CubeMX pinout [X]\n- Add extra GPIO pins to logic analyzer []\n- Assign footprints and P/N [X]\n- Assign LSC P/N []\n- Temperature op amp values []\n- Add debouncing to bms boot button []\n- Fix i2c bus[]\n- LTSpice screenshots for thermistor []\n- Derate PTC fuses []\n- Add EL3H7 to dl [X]\n- Make sure optos are fine when regout is 2.5V [X]\n- Molex Connector pn [X]\n- Fix all the datasheet as embed symbols [X]\n- Add bypass caps to i2c isolator [X]\n- Change CAN and power connector [X]\n- Fix PB16 (overlapping with PP IMON []"
 		(exclude_from_sim no)
 		(at 94.488 167.894 0)
 		(effects
@@ -2836,7 +2839,7 @@
 	)
 	(text "PeripheralCAN Connector\nFor pin number reference"
 		(exclude_from_sim no)
-		(at 164.592 43.18 0)
+		(at 164.338 41.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3677,16 +3680,6 @@
 			(type default)
 		)
 		(uuid "e849ca67-b56b-4c50-a35f-0278dc18c4df")
-	)
-	(wire
-		(pts
-			(xy 222.25 115.57) (xy 222.25 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8836473-c653-4a95-b30e-f229f7d4e2b5")
 	)
 	(wire
 		(pts
@@ -7061,7 +7054,25 @@
 			"6Apk3GsJ3Etcc+R4LpnEcuTbGSQz028fdNJ+8v2TDmesqGZUdfWoatLjZI+TJUU11aKo+qQjFqup"
 			"rq6p7tKZVhPk8qVwiDi6OtuUFEs+tRON4MrtlEqKyxzhbmH55dR3qR2pF1NjnqVX/+s0jXbd2u79"
 			"LanTqR8XULry74dSg9ntR/9O19Jhb9O61z7+uMsTT6ZeSZ05mDq3cCW1vyg4soEQ6R/yLmIm18Tb"
-			"GxuVOKNKo7+z3Mi4qZE6DZJBIg=="
+			"GxuVOKNKo7+z3Mi4qZE6DZJBIgAkAADlGAAADwAAAOUYAAAPAAAA/////wAkAAD0GAAADwAAAPQY"
+			"AAAPAAAA/////wAkAAADGQAADwAAAAMZAAAPAAAA/////wAkAAASGQAADgAAABIZAAAOAAAA////"
+			"/wAkAAAgGQAABAAAACAZAAAEAAAA/////wAkAAAkGQAACQAAACQZAAAJAAAA/////wAkAAAtGQAA"
+			"BAAAAC0ZAAAEAAAA/////wAkAAAxGQAABAAAADEZAAAEAAAA/////wAkAAA1GQAABgAAADUZAAAG"
+			"AAAA/////wAkAAA7GQAABAAAADsZAAAEAAAA/////wAkAAA/GQAABAAAAD8ZAAAEAAAA/////wAk"
+			"AABDGQAACAAAAEMZAAAIAAAA/////wAkAABLGQAACAAAAEsZAAAIAAAA/////wAkAABTGQAABgAA"
+			"AFMZAAAGAAAA/////wAkAABZGQAABgAAAFkZAAAGAAAA/////wAkAABfGQAABwAAAF8ZAAAHAAAA"
+			"/////wAkAABmGQAABwAAAGYZAAAHAAAA/////wAkAABtGQAACAAAAG0ZAAAIAAAA/////wAkAAB1"
+			"GQAACAAAAHUZAAAIAAAA/////wAkAAB9GQAADAAAAH0ZAAAMAAAA/////wAkAACJGQAAEgAAAIkZ"
+			"AAASAAAA/////wAkAACbGQAAEAAAAJsZAAAQAAAA/////wAkAACrGQAAEQAAAKsZAAARAAAA////"
+			"/wAkAAC8GQAAEAAAALwZAAAQAAAA/////wAkAADMGQAAEQAAAMwZAAARAAAA/////wAkAADdGQAA"
+			"FAAAAN0ZAAAUAAAA/////wAkAADxGQAAEwAAAPEZAAATAAAA/////wAkAAAEGgAAEwAAAAQaAAAT"
+			"AAAA/////wAkAAAXGgAAEwAAABcaAAATAAAA/////wAkAAAqGgAAEwAAACoaAAATAAAA/////wgk"
+			"AAA9GgAAFAAAAD0aAAAUAAAA/////wAkAABRGgAAEwAAAFEaAAATAAAA/////wgkAABkGgAAEwAA"
+			"AGQaAAATAAAA/////wAkAAB3GgAADQAAAHcaAAANAAAA/////wAkAACEGgAAEQAAAIQaAAARAAAA"
+			"/////wgkAACVGgAAFAAAAJUaAAAUAAAA/////wAkAACpGgAADwAAAKkaAAAPAAAA/////wAkAAC4"
+			"GgAAFAAAALgaAAAUAAAA/////wAkAADMGgAAEgAAAMwaAAASAAAA/////wAkAADeGgAAEAAAAN4a"
+			"AAAQAAAA/////wAkAADuGgAAFAAAAO4aAAAUAAAA/////wAkAAACGwAAFQAAAAIbAAAVAAAA////"
+			"/wAkAAAXGwAAFAAAABcbAAAUAA=="
 		)
 	)
 	(table
@@ -9503,7 +9514,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 222.25 115.57 0)
+		(at 222.25 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9512,7 +9523,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f145be6-d2f5-481c-9ff7-a56c441d7128")
 		(property "Reference" "#PWR080"
-			(at 222.25 119.38 0)
+			(at 222.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +9532,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 222.25 110.49 0)
+			(at 222.25 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 115.57 0)
+			(at 222.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 115.57 0)
+			(at 222.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +9558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 222.25 115.57 0)
+			(at 222.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +9848,7 @@
 	)
 	(symbol
 		(lib_id "utsvt_connectors:PeripheralCANConnector")
-		(at 160.02 33.02 0)
+		(at 160.02 31.75 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9846,7 +9857,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddfa8f82-c0b2-4374-84a6-0b2effb6174f")
 		(property "Reference" "J2"
-			(at 160.655 22.86 0)
+			(at 160.655 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9854,7 +9865,7 @@
 			)
 		)
 		(property "Value" "PeripheralCAN"
-			(at 160.655 25.4 0)
+			(at 160.655 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9862,7 +9873,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Connectors:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical"
-			(at 160.02 41.91 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9871,7 +9882,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/105309-1204?qs=PqFvFmEiOr6mDAWV2BJKbg%3D%3D&srsltid=AfmBOopk7YsqdMLo2_DAHKaHKt3Hg126ooPXYWv5Q2Pfx6rW7DaYZCT2"
-			(at 165.1 25.4 0)
+			(at 165.1 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9880,7 +9891,7 @@
 			)
 		)
 		(property "Description" "Connection to the car's Peripheral CAN bus."
-			(at 160.02 33.02 0)
+			(at 160.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,7 +9900,7 @@
 			)
 		)
 		(property "P/N" "105309-1204 "
-			(at 160.02 33.02 0)
+			(at 160.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
