@@ -144,7 +144,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B"
+		(symbol "LED:WS2812B-2020"
 			(pin_names
 				(offset 0.254)
 			)
@@ -160,7 +160,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B"
+			(property "Value" "WS2812B-2020"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -169,7 +169,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -179,7 +179,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -189,7 +189,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller"
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -198,7 +198,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -207,7 +207,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -216,7 +216,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812B_0_0"
+			(symbol "WS2812B-2020_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -226,7 +226,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_0_1"
+			(symbol "WS2812B-2020_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -323,7 +323,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_1_1"
+			(symbol "WS2812B-2020_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -334,7 +334,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -352,7 +352,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -370,7 +370,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -388,7 +388,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1820,24 +1820,24 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:WS2812B-2020")
 		(at 119.38 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "33b9b028-fbaa-49ad-ab3a-dc99e10a93ea")
+		(uuid "30c88781-dd0c-4294-9e89-5933db46f27f")
 		(property "Reference" "D3"
-			(at 112.522 44.45 0)
+			(at 108.966 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 112.522 46.99 0)
+		(property "Value" "WS2812B-2020"
+			(at 108.966 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
 			(at 121.92 62.865 0)
 			(effects
 				(font
@@ -1864,7 +1864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
 			(at 119.38 53.34 0)
 			(effects
 				(font
@@ -1873,22 +1873,97 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "03371ec2-1def-4d2f-b958-553d8e5b64e5")
-		)
 		(pin "3"
-			(uuid "25ef145d-5e16-47d6-b64d-134fab1a20c3")
+			(uuid "3cd8cb7f-41eb-4e22-be40-a118dffc8f35")
 		)
 		(pin "2"
-			(uuid "5a866a2e-a2bf-4f80-bee1-b5385612f1f1")
+			(uuid "c1b548d3-5d66-4350-bdd5-ca36d9c67ee5")
 		)
 		(pin "4"
-			(uuid "fc840710-4521-4d11-bac0-0c9a0e792b30")
+			(uuid "c8ff81e3-f8a4-4261-8bdf-4bf178923804")
+		)
+		(pin "1"
+			(uuid "34a354ed-d698-4149-bbac-07e107a20d72")
 		)
 		(instances
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 83.82 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "383e4c74-66dd-4497-92ae-6e011c4d7721")
+		(property "Reference" "D2"
+			(at 73.406 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 73.406 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 85.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 86.36 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 83.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "88b5d2ba-1df5-494b-9771-687558ec13dc")
+		)
+		(pin "2"
+			(uuid "08c46aaf-27f9-4185-a9aa-5567bd1d5f5a")
+		)
+		(pin "4"
+			(uuid "76071777-c97b-4ce5-a016-ffad295353ef")
+		)
+		(pin "1"
+			(uuid "23af7eb3-0122-4909-b677-4fbcd81fd16f")
+		)
+		(instances
+			(project ""
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2040,81 +2115,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 190.5 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49384823-9fac-4b00-8a65-121ef39f29b2")
-		(property "Reference" "D5"
-			(at 183.642 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 183.642 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 191.77 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 193.04 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01e6053e-eb52-4032-8621-43e2f6a541c7")
-		)
-		(pin "3"
-			(uuid "5e9fadac-ab76-4df0-877f-9ff380eea2b1")
-		)
-		(pin "2"
-			(uuid "d4b38bcc-f694-4319-84d0-dcb32a2db1d4")
-		)
-		(pin "4"
-			(uuid "7ed3c48b-6101-4552-9d7e-8143bca20ec8")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 83.82 74.93 0)
 		(unit 1)
@@ -2175,6 +2175,156 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 154.94 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b4609b2-f092-4e36-9745-bf5f50d5a98d")
+		(property "Reference" "D4"
+			(at 144.526 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.526 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 156.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 157.48 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d26053cd-77a4-45fb-a777-402c8a7bcb6e")
+		)
+		(pin "2"
+			(uuid "e2307105-adb7-4b69-bceb-e5a5589d5ee3")
+		)
+		(pin "4"
+			(uuid "a8d10882-9f82-4aae-b4ae-94ed8c7a2fab")
+		)
+		(pin "1"
+			(uuid "d9beaa5a-a345-4271-9dda-89450c32b1db")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 119.38 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64354165-3121-4d93-b4c6-dbc36992e690")
+		(property "Reference" "D7"
+			(at 108.966 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 108.966 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 121.92 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8710dbcc-7188-4ca3-99c7-cee5aeb964f6")
+		)
+		(pin "2"
+			(uuid "b34bb47c-e4d6-4041-bffb-2cc69f9a0b43")
+		)
+		(pin "4"
+			(uuid "e95fd056-f7df-4acc-ab79-b4f9f24314a4")
+		)
+		(pin "1"
+			(uuid "9d1c1ed7-9f55-4d82-bbdc-5fdbb74f6a7c")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2308,6 +2458,81 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 154.94 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bc9ab90-0670-40c4-90fd-c5c347816c1b")
+		(property "Reference" "D8"
+			(at 144.526 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.526 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 157.48 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fdaa903c-897c-4666-ae4a-7f4a41149500")
+		)
+		(pin "2"
+			(uuid "a2047f63-9ab0-40be-8e20-679c06d0fc6e")
+		)
+		(pin "4"
+			(uuid "6d81147e-447a-4d4c-bc68-9d6a5daa2ffa")
+		)
+		(pin "1"
+			(uuid "5697c7b5-1152-4865-97ba-effaed51a298")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2459,6 +2684,81 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 83.82 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d7726c7-dabd-44ae-9f6d-10639272aa91")
+		(property "Reference" "D6"
+			(at 73.406 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 73.406 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 86.36 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fbfc2b5e-9c3b-47de-abb6-dc2d0fc5d678")
+		)
+		(pin "2"
+			(uuid "65f4d5fa-b097-4d75-a0cd-dd9fbc2af0a2")
+		)
+		(pin "4"
+			(uuid "c9a0d599-95d7-4e22-a491-b3f8b3d6ba23")
+		)
+		(pin "1"
+			(uuid "5eae3ce0-d41a-4571-b9b7-5b778f2176a4")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 88.9 0)
 		(unit 1)
@@ -2519,6 +2819,81 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 190.5 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90a7605e-91b2-43ce-b0e3-23dc919d0e7d")
+		(property "Reference" "D9"
+			(at 180.086 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 180.086 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 193.04 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d3bcf258-ad86-4f67-8242-991c28ec0f43")
+		)
+		(pin "2"
+			(uuid "fad85ad6-0ccb-4d9d-9933-a26aa778bb84")
+		)
+		(pin "4"
+			(uuid "907d7296-3f9d-44aa-bfc4-ad49e885419c")
+		)
+		(pin "1"
+			(uuid "46fa34fc-796a-4b04-8de5-10704924216d")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2658,24 +3033,24 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 154.94 96.52 0)
+		(lib_id "LED:WS2812B-2020")
+		(at 190.5 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "972cab98-da99-4524-a856-d83258ad6275")
-		(property "Reference" "D8"
-			(at 148.082 87.63 0)
+		(uuid "940736ad-1252-4213-86c1-8843b7c5cb39")
+		(property "Reference" "D5"
+			(at 180.086 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 148.082 90.17 0)
+		(property "Value" "WS2812B-2020"
+			(at 180.086 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +3058,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 156.21 104.14 0)
+			(at 191.77 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,8 +3067,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 157.48 106.045 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 193.04 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,31 +3077,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 154.94 96.52 0)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 190.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "a175d2f6-a758-4698-8196-a4b02335778c")
 		)
 		(pin "3"
-			(uuid "419c3e96-dc1c-4e90-92c0-059dfe89ad8c")
+			(uuid "59c41cb5-296b-48aa-b4d0-a43981fb52a3")
 		)
 		(pin "2"
-			(uuid "cfbe7f6a-98b8-43bf-8f85-2011e45a2476")
+			(uuid "f01cd33f-09e1-496f-9b9b-8b8f71d9ee8f")
 		)
 		(pin "4"
-			(uuid "9629e5b4-d005-477b-8ba8-67d773954812")
+			(uuid "96843ed2-34e2-4e2a-a7f9-f19b43abd6e1")
+		)
+		(pin "1"
+			(uuid "a9bdf883-5226-4c86-837a-ea2dc79dff32")
 		)
 		(instances
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
-					(reference "D8")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3144,81 +3519,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 83.82 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae1272d7-9890-425f-8c7d-53c2ef18cfb0")
-		(property "Reference" "D6"
-			(at 76.962 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 76.962 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 85.09 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 86.36 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 83.82 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "809c1183-7617-4f29-bab6-1465282ab688")
-		)
-		(pin "3"
-			(uuid "561f38f3-3a3d-4e5e-b6dc-3ec0cba94f87")
-		)
-		(pin "2"
-			(uuid "1b8ae994-0177-42f4-a884-c06a01aff73f")
-		)
-		(pin "4"
-			(uuid "be6b1905-be3f-4603-ba06-a62c5175cc86")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 166.37 45.72 0)
 		(unit 1)
@@ -3346,81 +3646,6 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 83.82 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c97c8103-761e-49e7-ab01-5f8250910841")
-		(property "Reference" "D2"
-			(at 76.962 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 76.962 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 86.36 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 83.82 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "085315ec-5d51-459f-b38f-2b332214e17c")
-		)
-		(pin "3"
-			(uuid "31b26971-4a48-4586-9f4d-64bbbd6e45d8")
-		)
-		(pin "2"
-			(uuid "a57eb8ea-d1cb-49f7-88fa-8434225845ad")
-		)
-		(pin "4"
-			(uuid "ed1c9a08-1ff3-4cbd-b12f-0426b29eb98b")
-		)
-		(instances
-			(project ""
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3731,81 +3956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 119.38 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7b59da7-cc57-4b6e-b4b9-78b137725487")
-		(property "Reference" "D7"
-			(at 112.522 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 112.522 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 120.65 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 121.92 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa7384ae-f622-47f8-9a2a-9a1691ae3435")
-		)
-		(pin "3"
-			(uuid "521b85fd-8728-4365-af63-11342a45e6fe")
-		)
-		(pin "2"
-			(uuid "4b6d3431-baa0-4ce0-b998-e9b8be8dbaee")
-		)
-		(pin "4"
-			(uuid "6fa96e11-fa47-439c-9b23-084f9eff2e43")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 119.38 74.93 0)
 		(unit 1)
@@ -3866,81 +4016,6 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 190.5 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee3961af-77b3-4f9b-aa66-099b31b33dbe")
-		(property "Reference" "D9"
-			(at 183.642 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 183.642 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 191.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 193.04 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 190.5 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9880e2e6-1548-4201-9b8c-20ea4cd61e47")
-		)
-		(pin "3"
-			(uuid "0338de07-1bf0-4b91-8e30-16c43837d9ea")
-		)
-		(pin "2"
-			(uuid "a2c6a672-423b-449f-8619-c3c897b41ea8")
-		)
-		(pin "4"
-			(uuid "f37a1cbd-f502-44e8-8044-f866e3be5641")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4073,81 +4148,6 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 154.94 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff2d634a-fda2-472c-94ab-87ed07222400")
-		(property "Reference" "D4"
-			(at 148.082 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 148.082 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 157.48 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46be82ea-1841-437f-b829-f4ba1b94c5d3")
-		)
-		(pin "3"
-			(uuid "386faf55-ae8a-4ff4-aec0-dc03d2e2f38b")
-		)
-		(pin "2"
-			(uuid "1833a6c6-7c6f-481d-acc4-ab2422b12b46")
-		)
-		(pin "4"
-			(uuid "27e07fc4-2f4f-42f4-b6e2-05120b897d46")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/775d633a-ad93-41b4-ac5c-f8bf894051fa"
-					(reference "D4")
 					(unit 1)
 				)
 			)

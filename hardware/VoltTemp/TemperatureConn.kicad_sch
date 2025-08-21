@@ -1688,7 +1688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/105313-1106?qs=PqFvFmEiOr4bh6qYE9ls5Q%3D%3D&srsltid=AfmBOorkd5tB41goMgzMBZBazZvSEwZ_xHejx9-hUeg1kUzy72uDVhU4"
+		(property "Datasheet" "~"
 			(at 92.71 66.04 0)
 			(effects
 				(font
@@ -2206,7 +2206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/1053131103/7693175"
+		(property "Datasheet" "~"
 			(at 132.08 68.58 0)
 			(effects
 				(font
