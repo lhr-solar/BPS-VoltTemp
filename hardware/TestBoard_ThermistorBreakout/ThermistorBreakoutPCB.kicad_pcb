@@ -5123,6 +5123,30 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "+"
+		(at 128.75 52.25 0)
+		(layer "F.SilkS")
+		(uuid "5042ee3a-d3c8-45ad-a9ef-ffedf02d3d27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 124 51.25 270)
+		(layer "F.SilkS")
+		(uuid "534b1f6f-7dce-4f24-9d96-874e857c2bfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "10k \ntherm"
 		(at 113.75 39.25 0)
 		(layer "F.SilkS")
@@ -5135,6 +5159,30 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "-"
+		(at 113.5 52.25 90)
+		(layer "F.SilkS")
+		(uuid "6eb29206-b654-44cf-b460-828d38b78237")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 121 51.25 270)
+		(layer "F.SilkS")
+		(uuid "989fafd8-1976-4b40-bf51-0040daebe1a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 108.25 60 0)
 		(layer "F.SilkS")
@@ -5143,6 +5191,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3"
+		(at 119 51.25 270)
+		(layer "F.SilkS")
+		(uuid "a33a4498-feee-494c-b214-47ff0b59dc26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -5169,6 +5229,18 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "4"
+		(at 116 51.25 270)
+		(layer "F.SilkS")
+		(uuid "cb6f44c6-7de9-4143-af07-27fe41bf6506")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "10k \ntherm"
