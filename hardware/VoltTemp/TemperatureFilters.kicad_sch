@@ -4,145 +4,7 @@
 	(generator_version "9.0")
 	(uuid "62f5d096-1c3b-473c-9490-20e328645474")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(junction
-		(at 85.09 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cd71a96-cbe7-4ccc-93e7-ae25f729dc6b")
-	)
-	(junction
-		(at 85.09 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e575329-6a41-44c1-a6b6-2f4fd5797af6")
-	)
-	(junction
-		(at 85.09 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67e20a42-3ee9-4890-9fba-597fe50e985c")
-	)
-	(junction
-		(at 85.09 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fba994d-3856-4a17-8870-3937d552dd9c")
-	)
-	(junction
-		(at 85.09 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91087eba-caa8-43d8-b08d-dc7b9c84cff8")
-	)
+	(lib_symbols)
 	(bus_entry
 		(at 78.74 99.06)
 		(size 2.54 -2.54)
@@ -171,7 +33,7 @@
 		(uuid "21d81c63-4e54-4d7b-a8ed-053e59975958")
 	)
 	(bus_entry
-		(at 78.74 115.57)
+		(at 78.74 116.84)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -225,13 +87,23 @@
 		(uuid "c6e52d2e-eaae-46d8-b7e9-fc848796e182")
 	)
 	(bus_entry
-		(at 147.32 113.03)
+		(at 147.32 114.3)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d9f40af1-aca8-4fb7-bef5-99302894a457")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.52) (xy 99.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096ee0bc-7c30-4e70-83ed-53c181ed1d9d")
 	)
 	(bus
 		(pts
@@ -253,45 +125,15 @@
 		)
 		(uuid "203aa79d-b39f-4e52-aef8-f63d2647778d")
 	)
-	(wire
-		(pts
-			(xy 129.54 81.28) (xy 147.32 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2958e204-81ba-4e9d-9833-9253fffaa9d0")
-	)
 	(bus
 		(pts
-			(xy 78.74 99.06) (xy 78.74 115.57)
+			(xy 78.74 99.06) (xy 78.74 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2974ef1d-ecaa-42e3-b306-49bfe3fc6f0b")
-	)
-	(wire
-		(pts
-			(xy 129.54 113.03) (xy 147.32 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ed3e8a7-c476-443c-a05e-14dd174fb703")
-	)
-	(wire
-		(pts
-			(xy 129.54 96.52) (xy 147.32 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f27c20a-32d4-4541-a818-f5dcbd054a7e")
 	)
 	(bus
 		(pts
@@ -305,13 +147,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 129.54) (xy 85.09 129.54)
+			(xy 81.534 66.04) (xy 99.06 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "410334e2-60ca-4e5c-9959-fb418c0cf552")
+		(uuid "41ce7d36-3582-45ea-9628-4f92dad291fa")
 	)
 	(bus
 		(pts
@@ -325,53 +167,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 81.28) (xy 99.06 81.28)
+			(xy 81.28 81.28) (xy 98.552 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56d67404-d1e3-45a9-9156-efc3ec2c3f32")
-	)
-	(wire
-		(pts
-			(xy 81.28 113.03) (xy 85.09 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c37ee5-9e05-4d98-a8aa-d4699546570f")
+		(uuid "6ed02998-0296-4e09-a262-1db8c2ce156f")
 	)
 	(bus
 		(pts
-			(xy 149.86 115.57) (xy 149.86 99.06)
+			(xy 149.86 116.84) (xy 149.86 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7620af9c-175d-4ad0-8f6d-b6ffa52871ac")
-	)
-	(wire
-		(pts
-			(xy 81.28 96.52) (xy 85.09 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e8db9f-8055-4851-b5fa-aa0024a74f60")
-	)
-	(wire
-		(pts
-			(xy 85.09 96.52) (xy 99.06 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "780e92c9-2ed5-488b-8cc3-196aca3cd12a")
 	)
 	(bus
 		(pts
@@ -385,33 +197,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 85.09 66.04)
+			(xy 128.778 81.28) (xy 147.32 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0b3947a-5798-4198-a7ea-63546278ccea")
+		(uuid "ae69ba5f-8477-49e8-8be6-70f6cb536dcd")
 	)
 	(bus
 		(pts
-			(xy 149.86 132.08) (xy 149.86 115.57)
+			(xy 149.86 132.08) (xy 149.86 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b075c97a-5a69-4811-8c39-e7c4c8f25a0d")
-	)
-	(wire
-		(pts
-			(xy 81.28 81.28) (xy 85.09 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be410a75-ff86-4feb-8a69-32b53b1b214d")
 	)
 	(bus
 		(pts
@@ -431,7 +233,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cbe34194-9888-4ebd-b68f-e77cb15c6819")
+		(uuid "c67fb43c-65f4-413c-9e16-e3e77776d813")
 	)
 	(bus
 		(pts
@@ -445,23 +247,43 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 113.03) (xy 99.06 113.03)
+			(xy 128.778 114.3) (xy 147.32 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d13e34fb-b077-43bc-abae-5cb05132c6dd")
+		(uuid "d07a5694-f442-4bcd-9828-beb69976598d")
 	)
 	(bus
 		(pts
-			(xy 78.74 115.57) (xy 78.74 132.08)
+			(xy 78.74 116.84) (xy 78.74 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1ae39b3-199d-440c-8d2b-bd41bdb8c259")
+	)
+	(wire
+		(pts
+			(xy 81.28 114.3) (xy 98.298 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9252e68-6bf8-412a-963c-227a5edc749b")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe874eb-32bf-42fa-836a-df8f9905e90f")
 	)
 	(wire
 		(pts
@@ -475,7 +297,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 129.54) (xy 99.06 129.54)
+			(xy 81.28 129.54) (xy 99.06 129.54)
 		)
 		(stroke
 			(width 0)
@@ -492,16 +314,6 @@
 			(type default)
 		)
 		(uuid "f8075956-6ded-46b3-b83c-b94fed9a07c6")
-	)
-	(wire
-		(pts
-			(xy 85.09 66.04) (xy 99.06 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f90440e5-9b18-4ddc-ba7a-e04671fa7809")
 	)
 	(bus
 		(pts
@@ -523,7 +335,7 @@
 		)
 		(uuid "fca2035a-ad78-4664-95c1-5ebc941d147b")
 	)
-	(label "Temperature0"
+	(label "Temperature1"
 		(at 132.08 66.04 0)
 		(effects
 			(font
@@ -533,7 +345,7 @@
 		)
 		(uuid "0fa7f4cf-0c26-440b-9b78-8563fcac16fe")
 	)
-	(label "Temperature4"
+	(label "Temperature5"
 		(at 132.08 129.54 0)
 		(effects
 			(font
@@ -543,7 +355,7 @@
 		)
 		(uuid "2dfb18d9-c1f9-41cc-a4ae-0620055f0acc")
 	)
-	(label "rawTemperature1"
+	(label "rawTemperature2"
 		(at 81.28 81.28 0)
 		(effects
 			(font
@@ -553,8 +365,8 @@
 		)
 		(uuid "2e24adbc-9ecd-4b24-93ce-1f934d39ad31")
 	)
-	(label "rawTemperature3"
-		(at 81.28 113.03 0)
+	(label "rawTemperature4"
+		(at 81.28 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -563,8 +375,8 @@
 		)
 		(uuid "30bc8292-be52-4117-925a-1be37a47b0bf")
 	)
-	(label "Temperature3"
-		(at 132.08 113.03 0)
+	(label "Temperature4"
+		(at 132.08 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -573,7 +385,7 @@
 		)
 		(uuid "35f1e26f-e442-4c03-8092-8a7e2392c62f")
 	)
-	(label "Temperature1"
+	(label "Temperature2"
 		(at 132.08 81.28 0)
 		(effects
 			(font
@@ -583,7 +395,7 @@
 		)
 		(uuid "3f4f7701-dfb2-45b3-8160-d2231cc55126")
 	)
-	(label "rawTemperature2"
+	(label "rawTemperature3"
 		(at 81.28 96.52 0)
 		(effects
 			(font
@@ -593,8 +405,8 @@
 		)
 		(uuid "40d8ab1b-467c-4352-939b-f5a9fde45aa3")
 	)
-	(label "Temperature2"
-		(at 132.08 96.52 0)
+	(label "Temperature3"
+		(at 133.35 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -603,8 +415,8 @@
 		)
 		(uuid "42a35195-3b46-46f5-9050-3d7b57c85715")
 	)
-	(label "rawTemperature0"
-		(at 81.28 66.04 0)
+	(label "rawTemperature1"
+		(at 81.534 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -613,7 +425,7 @@
 		)
 		(uuid "445ded07-4631-4a2b-8929-b4b72104864f")
 	)
-	(label "rawTemperature4"
+	(label "rawTemperature5"
 		(at 81.28 129.54 0)
 		(effects
 			(font
@@ -623,7 +435,7 @@
 		)
 		(uuid "eb31b15f-62c0-495a-8a5c-32b43c3a6c36")
 	)
-	(hierarchical_label "rawTemperature[0..4]"
+	(hierarchical_label "rawTemperature[1..5]"
 		(shape input)
 		(at 66.04 59.69 180)
 		(effects
@@ -634,7 +446,7 @@
 		)
 		(uuid "d8001107-83a4-4b9f-b9fe-788751a1bfdf")
 	)
-	(hierarchical_label "Temperature[0..4]"
+	(hierarchical_label "Temperature[1..5]"
 		(shape output)
 		(at 154.94 60.96 0)
 		(effects
@@ -644,341 +456,6 @@
 			(justify left)
 		)
 		(uuid "fe388794-8f81-4ee9-934c-0d6fb0570cbd")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06fdf93d-8b41-4cb3-8896-da6cfaa88a24")
-		(property "Reference" "TP9"
-			(at 87.63 115.0619 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP_TempIn"
-			(at 87.63 117.6019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 80.01 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45b45ea9-7624-4104-97a5-92f4b996c7d0")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 129.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "489b7492-7f2e-46d3-a875-9df47217c0eb")
-		(property "Reference" "TP10"
-			(at 87.63 131.5719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP_TempIn"
-			(at 87.63 134.1119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 80.01 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29016261-154f-43d1-8ab1-98f64a9f198a")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ba0c175-0903-48b8-87d4-6b0c83ae3adb")
-		(property "Reference" "TP8"
-			(at 87.63 98.5519 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP_TempIn"
-			(at 87.63 101.0919 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 80.01 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "362b44f4-b2a1-4982-814f-40fde7ee68ec")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f36cd18-153b-4b18-b088-2443abb9d638")
-		(property "Reference" "TP6"
-			(at 87.63 68.0719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP_TempIn"
-			(at 87.63 70.6119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 80.01 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "828a5c61-fe1d-4ab4-84d0-c1d700de4ee7")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc05c4d6-aab7-41ed-9525-2a1ff5ab5366")
-		(property "Reference" "TP7"
-			(at 87.63 83.3119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP_TempIn"
-			(at 87.63 85.8519 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1fb960b-8ce4-4eaf-9a6e-04f067d60f17")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(sheet
 		(at 99.06 125.73)
@@ -1042,8 +519,8 @@
 		)
 	)
 	(sheet
-		(at 99.06 92.71)
-		(size 30.48 10.16)
+		(at 98.552 78.486)
+		(size 30.226 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1057,6 +534,189 @@
 		)
 		(uuid "0b6a6f29-4cfd-471f-918e-165d9124c249")
 		(property "Sheetname" "TemperatureFilter2"
+			(at 98.552 77.7744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TemperatureFilter.kicad_sch"
+			(at 98.552 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "tempIn" input
+			(at 98.552 81.28 180)
+			(uuid "7adb1d04-8f05-48d8-971d-0746b2671960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "tempOut" output
+			(at 128.778 81.28 0)
+			(uuid "a7de50c4-5373-4d4f-97b2-5fb3eb404071")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 98.298 108.458)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "305db25e-0e18-41b2-b157-490c9c9ed149")
+		(property "Sheetname" "TemperatureFilter0"
+			(at 98.298 107.7464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TemperatureFilter.kicad_sch"
+			(at 98.298 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "tempIn" input
+			(at 98.298 114.3 180)
+			(uuid "adc7b6b3-8022-4a3b-a820-f74ce690d7a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "tempOut" output
+			(at 128.778 114.3 0)
+			(uuid "f7f83c85-4cc2-441b-b185-ebf5ce12d875")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 61.976)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a5d6278-49ce-4bbe-b320-bfc4455852c3")
+		(property "Sheetname" "TemperatureFilter3"
+			(at 99.06 61.2644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TemperatureFilter.kicad_sch"
+			(at 99.06 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "tempIn" input
+			(at 99.06 66.04 180)
+			(uuid "5ae637f1-1692-4914-b10a-cf87abe2546c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "tempOut" output
+			(at 129.54 66.04 0)
+			(uuid "0219981c-dff2-4333-93fb-687a5a89a61e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 92.71)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eab5a88a-8eae-40be-bde5-afb3b6331798")
+		(property "Sheetname" "TemperatureFilter1"
 			(at 99.06 91.9984 0)
 			(effects
 				(font
@@ -1076,189 +736,6 @@
 		)
 		(pin "tempIn" input
 			(at 99.06 96.52 180)
-			(uuid "7adb1d04-8f05-48d8-971d-0746b2671960")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "tempOut" output
-			(at 129.54 96.52 0)
-			(uuid "a7de50c4-5373-4d4f-97b2-5fb3eb404071")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 99.06 60.96)
-		(size 30.48 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "305db25e-0e18-41b2-b157-490c9c9ed149")
-		(property "Sheetname" "TemperatureFilter0"
-			(at 99.06 60.2484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "TemperatureFilter.kicad_sch"
-			(at 99.06 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "tempIn" input
-			(at 99.06 66.04 180)
-			(uuid "adc7b6b3-8022-4a3b-a820-f74ce690d7a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "tempOut" output
-			(at 129.54 66.04 0)
-			(uuid "f7f83c85-4cc2-441b-b185-ebf5ce12d875")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 99.06 109.22)
-		(size 30.48 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4a5d6278-49ce-4bbe-b320-bfc4455852c3")
-		(property "Sheetname" "TemperatureFilter3"
-			(at 99.06 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "TemperatureFilter.kicad_sch"
-			(at 99.06 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "tempIn" input
-			(at 99.06 113.03 180)
-			(uuid "5ae637f1-1692-4914-b10a-cf87abe2546c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "tempOut" output
-			(at 129.54 113.03 0)
-			(uuid "0219981c-dff2-4333-93fb-687a5a89a61e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/b98a0b4d-b474-46e4-af8f-719e1bb91bc9"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 99.06 77.47)
-		(size 30.48 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "eab5a88a-8eae-40be-bde5-afb3b6331798")
-		(property "Sheetname" "TemperatureFilter1"
-			(at 99.06 76.7584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "TemperatureFilter.kicad_sch"
-			(at 99.06 88.138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "tempIn" input
-			(at 99.06 81.28 180)
 			(uuid "63c7f0f0-7b48-4295-bcb2-296fed60d177")
 			(effects
 				(font
@@ -1268,7 +745,7 @@
 			)
 		)
 		(pin "tempOut" output
-			(at 129.54 81.28 0)
+			(at 129.54 96.52 0)
 			(uuid "ae151f31-2720-43e3-b1b0-38854c910be0")
 			(effects
 				(font

@@ -1206,6 +1206,17 @@
 		)
 		(uuid "e3daa18c-86f1-4bef-923f-198f47039496")
 	)
+	(text "Only one of 8 volttemps will connect to scrut\nOther volttemps will have 0 ohm bypass"
+		(exclude_from_sim no)
+		(at 91.186 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbda6244-b518-489c-abae-ef64a83fceef")
+	)
 	(junction
 		(at 135.89 67.31)
 		(diameter 0)
@@ -2398,72 +2409,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 130.81 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04a9a8ae-f6ff-478c-b0e8-6ed245809e26")
-		(property "Reference" "#PWR074"
-			(at 124.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 127.762 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbdea9ea-fd6a-42bb-af3b-a572d5849a47")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/28ab9f86-06e3-4025-a371-5e4e53853fdc"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 166.37 54.61 0)
 		(unit 1)
@@ -2822,6 +2767,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 114.3 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2baf4d2e-b69e-4867-8944-2c2c27ca83fd")
+		(property "Reference" "#PWR025"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_Seg"
+			(at 111.76 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22d9e37b-b230-4e6b-85a4-b9e4fa31ceb5")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/28ab9f86-06e3-4025-a371-5e4e53853fdc"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 130.81 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "394fcf1a-1699-486d-b720-baf7e7f28f50")
+		(property "Reference" "#PWR026"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_Seg"
+			(at 126.746 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 130.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b85504d-0a3b-4c0b-bc32-149e1e7b1f37")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/28ab9f86-06e3-4025-a371-5e4e53853fdc"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 130.81 44.45 270)
 		(unit 1)
@@ -2953,7 +3030,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "FUSC1607X75N"
+		(property "P/N" "PTSLR06038V075"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -3335,7 +3412,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "FUSC1607X75N"
+		(property "P/N" "PTSLR06038V075"
 			(at 88.9 45.72 0)
 			(effects
 				(font
@@ -3439,6 +3516,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 40.64 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f06e3f3-fb33-4a44-8710-d06243a675b8")
+		(property "Reference" "#PWR022"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_Seg"
+			(at 38.1 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ba64231-150d-4947-aaa7-b0a5242c1ba8")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/28ab9f86-06e3-4025-a371-5e4e53853fdc"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 135.89 78.74 0)
 		(unit 1)
@@ -3518,71 +3661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 114.3 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75de35ff-8f4f-4aaa-907c-5b8103658e42")
-		(property "Reference" "#PWR075"
-			(at 114.3 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 118.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 114.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11d522a0-b313-4681-a8f6-ee7dc8e92186")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/28ab9f86-06e3-4025-a371-5e4e53853fdc"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse_Small")
 		(at 88.9 50.8 90)
 		(unit 1)
@@ -3636,7 +3714,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "FUSC1607X75N"
+		(property "P/N" "PTSLR06038V075"
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -3714,7 +3792,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "FUSC1607X75N"
+		(property "P/N" "PTSLR06038V075"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -3945,72 +4023,6 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/28ab9f86-06e3-4025-a371-5e4e53853fdc"
 					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 40.64 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa8f901e-cf67-47c6-aa8a-9b367b20b56f")
-		(property "Reference" "#PWR022"
-			(at 40.64 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 40.64 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 40.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bfee628-255c-48ef-b248-5c819ae5678a")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/28ab9f86-06e3-4025-a371-5e4e53853fdc"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4617,7 +4629,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "FUSC1607X75N"
+		(property "P/N" "PTSLR06038V075"
 			(at 88.9 55.88 0)
 			(effects
 				(font
