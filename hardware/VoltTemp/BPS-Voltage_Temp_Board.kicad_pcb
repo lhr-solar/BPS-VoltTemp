@@ -7780,6 +7780,19 @@
 				)
 			)
 		)
+		(property "P/N" "53307-2471"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61dfae19-1183-4bde-bd72-ac97d1df5082")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d699dc65-b3e1-406f-9e51-5d4f138000a7")
 		(sheetname "/")
 		(sheetfile "BPS-Voltage_Temp_Board.kicad_sch")
@@ -33172,7 +33185,7 @@
 	(footprint "UTSVT_Logos:Hallock_Image_Small"
 		(layer "B.Cu")
 		(uuid "1d555fbf-84dc-406e-9ec8-b3d637f814f1")
-		(at 196.581263 80.688871 180)
+		(at 196.631263 85.563871 180)
 		(property "Reference" "LOGO1"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -35776,6 +35789,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Lakshay Gupta & Clark Rucker"
+		(at 176.8 69.85 0)
+		(layer "F.SilkS")
+		(uuid "ade364b0-0499-4373-95d0-6513e0ad51d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "5"
 		(at 143.475 79.55 270)
 		(layer "F.SilkS")
@@ -36042,7 +36067,31 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Todo:\n- Layout :( [X]\n- Update constrains [X]\n- Mirror thermistor flex pinout [X]\n- Label voltage connector []\n- Fix iso i2c footprint [X]\n- Make proper edge cuts [X]\n- Add stitching vias [X]\n- Update pcb from schematic once schematic todo done [X]\n- Figure out edge to connector clearance for nanofits []\n- Redo addressable led routing [X]\n- Verify 24V traces can handle 8 Volttemps of current [X]\n- Make silkscreen labeling consistent (0 vs 1 index) [X]\n- Reorganize logic analzyer pins for better rounting [X]\n- Place testpoints (fuck) [X]"
+	(gr_text "PA11"
+		(at 119.175 110.95 270)
+		(layer "B.SilkS")
+		(uuid "87a96de9-9609-4c62-a3c9-620f1ced9302")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PA12"
+		(at 121.8 110.875 270)
+		(layer "B.SilkS")
+		(uuid "f9fe1752-91ff-4422-881f-20893ba124f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Todo:\n- Layout :( [X]\n- Update constrains [X]\n- Mirror thermistor flex pinout [X]\n- Label voltage connector [X]\n- Fix iso i2c footprint [X]\n- Make proper edge cuts [X]\n- Add stitching vias [X]\n- Update pcb from schematic once schematic todo done [X]\n- Figure out edge to connector clearance for nanofits []\n- Redo addressable led routing [X]\n- Verify 24V traces can handle 8 Volttemps of current [X]\n- Make silkscreen labeling consistent (0 vs 1 index) [X]\n- Reorganize logic analzyer pins for better rounting [X]\n- Place testpoints (fuck) [X]"
 		(at 66.9 86.1 0)
 		(layer "Cmts.User")
 		(uuid "6af7728a-4a40-433e-944e-c513488ecb31")
