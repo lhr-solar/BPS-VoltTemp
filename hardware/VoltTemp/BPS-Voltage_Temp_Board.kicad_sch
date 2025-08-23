@@ -14,6 +14,113 @@
 		(comment 4 "Board for measuring voltage and temperature of the battery modules.")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -3236,7 +3343,7 @@
 		)
 		(uuid "0fa55c4f-fb9b-4c32-b278-f923ab5b29f7")
 	)
-	(text "Schematic Todo:\n- Proper CubeMX pinout [X]\n- Add extra GPIO pins to logic analyzer [X]\n- Assign footprints and P/N [X]\n- Assign LSC P/N []\n- Temperature op amp values [X]\n- Fix i2c bus[X]\n- LTSpice screenshots for thermistor [X]\n- Derate PTC fuses []\n- Add EL3H7 to dl [X]\n- Make sure optos are fine when regout is 2.5V [X]\n- Molex Connector pn [X]\n- Fix all the datasheet as embed symbols [X]\n- Add bypass caps to i2c isolator [X]\n- Change CAN and power connector [X]\n- Fix PB16 (overlapping with PP IMON [X]"
+	(text "Schematic Todo:\n- Proper CubeMX pinout [X]\n- Add extra GPIO pins to logic analyzer [X]\n- Assign footprints and P/N [X]\n- Assign LSC P/N []\n- Temperature op amp values [X]\n- Fix i2c bus[X]\n- LTSpice screenshots for thermistor [X]\n- Derate PTC fuses []\n- Add EL3H7 to dl [X]\n- Make sure optos are fine when regout is 2.5V [X]\n- Molex Connector pn [X]\n- Fix all the datasheet as embed symbols [X]\n- Add bypass caps to i2c isolator [X]\n- Change CAN and power connector [X]\n- Fix PB16 (overlapping with PP IMON [X]\n- Update CubeMX and table with BQ heartbeat and fault pins []"
 		(exclude_from_sim no)
 		(at 94.488 167.894 0)
 		(effects
@@ -3341,16 +3448,8 @@
 		(uuid "aed76807-8d3b-4537-9074-3b1dee08158f")
 	)
 	(no_connect
-		(at 261.62 95.25)
-		(uuid "db3e7d54-d83c-41ac-b77f-615cd2c88146")
-	)
-	(no_connect
 		(at 181.61 88.9)
 		(uuid "df3083e0-d98e-43b1-a6e3-a2a929aff44b")
-	)
-	(no_connect
-		(at 261.62 97.79)
-		(uuid "ec7fedd4-f237-484d-857c-d1a675ae9019")
 	)
 	(no_connect
 		(at 170.18 33.02)
@@ -3465,6 +3564,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 97.79) (xy 270.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5aa8bb-09e9-4505-ad58-ace48ea40ce4")
+	)
+	(wire
+		(pts
 			(xy 226.06 44.45) (xy 224.79 43.18)
 		)
 		(stroke
@@ -3475,7 +3584,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 92.71) (xy 269.24 92.71)
+			(xy 261.62 92.71) (xy 270.51 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3615,6 +3724,26 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 143.51) (xy 273.05 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381107ae-ac3c-4b9b-aec6-c421e655b96e")
+	)
+	(wire
+		(pts
+			(xy 261.62 95.25) (xy 270.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2320ab-40ab-442e-8fd0-5f0548dbdf2c")
+	)
+	(wire
+		(pts
 			(xy 48.26 34.29) (xy 69.85 34.29)
 		)
 		(stroke
@@ -3735,7 +3864,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 90.17) (xy 269.24 90.17)
+			(xy 261.62 90.17) (xy 270.51 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3762,6 +3891,16 @@
 			(type default)
 		)
 		(uuid "5e307145-92d8-4c2f-b701-ab29f06138d6")
+	)
+	(wire
+		(pts
+			(xy 266.7 142.24) (xy 267.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6094bd17-bf5e-4940-9cfd-9909eff4e5b6")
 	)
 	(wire
 		(pts
@@ -3872,6 +4011,16 @@
 			(type default)
 		)
 		(uuid "7a954fbc-f8d1-4830-9d15-8db9416e3a27")
+	)
+	(wire
+		(pts
+			(xy 266.7 149.86) (xy 266.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1082b8-4b7d-46a8-a996-cfaf6d42672e")
 	)
 	(wire
 		(pts
@@ -4022,6 +4171,16 @@
 			(type default)
 		)
 		(uuid "a7f86f10-e0a4-4e09-9504-92a04ddd35ae")
+	)
+	(wire
+		(pts
+			(xy 271.78 143.51) (xy 267.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a960b8ee-038d-43d4-aabd-eaf7cc59fb3b")
 	)
 	(bus
 		(pts
@@ -4375,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 137.16) (xy 242.57 139.7)
+			(xy 242.57 138.43) (xy 242.57 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7216,7 +7375,25 @@
 			"3KzSvSi5gUHXJUTB3KzSvYypgUHXJUTB3KzSvYypgUHXJUTB3KzSPSi5gUHXJUTB3KzSPZPHgUHl"
 			"GUTB3KzSPZPHgUHlGUTB3KzSvZPHgUHlGUTB3KzSvSi5gUHXJUTB3KzSvSi5gUHXJUTB3KzSPZPH"
 			"gUHlGUTB3KzSPZzSgUHSA0TB3KzSPZzSgUHSA0TB3KzSvZzSgUHSA0TB3KzSvZPHgUHlGUTB3KzS"
-			"vZPHgUHlGUTB3KzSPZzSgUHSA0TB3KzSPZbYgUH75kPB3A=="
+			"vZPHgUHlGUTB3KzSPZzSgUHSA0TB3KzSPZbYgUH75kPB3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAuN9j1WGD//1lh//9YYP//V1///1df//9XX///V1///wUFe/8AAHP/AABz/wAA"
+			"c/8AAHP/AABz/wAAc/8EBHr/V1///1df//9XX///V1///1hg//9ZYf//WGD//y432PUAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALjfY9Vhg//9ZYf//WGD//1df//9XX///"
+			"V1///1df//8FBXv/AABz/wAAc/8AAHP/AABz/wAAc/8AAHP/BAR6/1df//9XX///V1///1df//9Y"
+			"YP//WWH//1hg//8uN9j1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABge"
+			"l/VBR8P/QkjD/0JIwf9BR8D/QUe//0FHv/9BR7//BAQ7/wAAM/8AADP/AAAz/wAAM/8AADP/AAAz"
+			"/wMDOv9BR7//QUe//0FHv/9BR8D/QkjB/0JIw/9BR8P/GB6X9QAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAXoAD1QMwn/0HMKf9Byij/QMko/0DIKP9AyCj/QMgo/0DIKP9A"
+			"yCj/QMgo/0DIKP9AyCj/QMgo/0DIKP9AyCj/QMgo/0DIKP9AyCj/QMko/0HKKP9BzCn/QMwn/xeg"
+			"APUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApGAGoXogD4Pcok/0LNKf9Byyn/Qcoo/0HKKP9Byij/"
+			"IZgV/wBjAP9AySj/QMko/0HKKP9Byij/Qcoo/0HLKf9CzSn/Pcok/xeiAPgKRgBqAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKTC/2FNb//9ZYf//"
+			"WGD//1df//9XX///V1///1df//8cH6D/AABz/wAAc/8AAHP/AABz/wAAc/8AAHP/HB+g/1df//9X"
+			"X///V1///1df//9YYP//WWH//1Nb//8pML/YAAAAAAAAAA=="
 		)
 	)
 	(table
@@ -8325,7 +8502,7 @@
 		(uuid "1b02b32e-f312-4678-9c23-bdfe00643c39")
 	)
 	(label "bmsEn"
-		(at 269.24 90.17 180)
+		(at 270.51 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8394,6 +8571,16 @@
 		)
 		(uuid "3b816ac2-6dbe-4791-88dc-404ba048d73e")
 	)
+	(label "BQ_HB"
+		(at 270.51 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c610769-6a8c-4d61-83af-da5c230391c2")
+	)
 	(label "bmsAlert"
 		(at 271.78 78.74 180)
 		(effects
@@ -8445,7 +8632,7 @@
 		(uuid "5c05baf6-8dd7-428d-823b-8f00abcdbac3")
 	)
 	(label "PB3"
-		(at 269.24 92.71 180)
+		(at 270.51 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8513,6 +8700,16 @@
 			(justify right bottom)
 		)
 		(uuid "707c81bf-1ca4-449b-8f7f-8c3d026600d8")
+	)
+	(label "BQ_Fault"
+		(at 270.51 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71d1664a-bf6a-410b-8c31-91daa84ddc3a")
 	)
 	(label "Temperature2"
 		(at 275.59 68.58 180)
@@ -8985,6 +9182,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 242.57 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb5061a-4831-4e3c-ab64-d5313912d0cb")
+		(property "Reference" "#PWR092"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b5031ac-fcad-46bf-89c5-2b1139e9bdbe")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 36.83 0)
 		(unit 1)
@@ -9111,6 +9374,71 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3947d2f8-adb4-4fbb-85e4-cb09f7b35c72")
+		(property "Reference" "#PWR095"
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "844a9df1-9031-45e0-a177-a66565dd86c0")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -9643,6 +9971,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 266.7 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bb8b4ca-de7f-468d-8212-c00b260cda75")
+		(property "Reference" "TP2"
+			(at 256.794 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 256.794 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 266.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bb1a5f3-bdd0-4d4d-9694-9ef8fb2c4f2a")
+		)
+		(instances
+			(project ""
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 181.61 86.36 0)
 		(unit 1)
@@ -9917,6 +10311,72 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
 					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 266.7 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b05694d-3e65-4b59-a68d-3c0b27fb82f7")
+		(property "Reference" "TP5"
+			(at 256.794 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 256.794 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 271.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 266.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e3b04fd-baa7-4cf0-94f6-f525a21199bb")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -10419,71 +10879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 242.57 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b143fb61-ed13-4165-96cc-b1a14759701b")
-		(property "Reference" "#PWR092"
-			(at 242.57 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 242.57 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6689f235-f6cf-4aac-9f1e-dd18f9009ffa")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDDA")
 		(at 274.32 43.18 0)
 		(unit 1)
@@ -10700,6 +11095,72 @@
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 273.05 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfbf5402-ef61-4a0d-b643-a48ca69828a9")
+		(property "Reference" "#PWR094"
+			(at 273.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 273.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 273.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7d6b7d2-92f5-4a3c-9faf-e43708b3b81f")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -11173,7 +11634,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "24V"
+		(property "Value" "3v3"
 			(at 246.38 155.2574 90)
 			(effects
 				(font
