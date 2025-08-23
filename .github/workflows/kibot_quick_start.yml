@@ -4,11 +4,15 @@ name: "Variants demo using --quick-start"
 # events but only for the master branch
 on:
   push:
+    branches:
+      - main
     paths:
       - '*.kicad_sch'
       - '*.kicad_pcb'
       - '.github/workflows/kibot_quick_start.yml'
   pull_request:
+    branches:
+      - main
     paths:
       - '*.kicad_sch'
       - '*.kicad_pcb'

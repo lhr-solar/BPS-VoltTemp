@@ -1,15 +1,6 @@
-[submodule "UTSVT-KiCadLibraries"]
-	path = UTSVT-KiCadLibraries
-	url = git@github.com:lhr-solar/UTSVT-KiCadLibraries.git
-[submodule "firmware/--recursive"]
-	path = firmware/--recursive
-	url = git@github.com:lhr-solar/Embedded-Sharepoint.git
 [submodule "firmware/Embedded-Sharepoint"]
 	path = firmware/Embedded-Sharepoint
-	url = git@github.com:lhr-solar/Embedded-Sharepoint.git
+	url = https://github.com/lhr-solar/Embedded-Sharepoint.git
 [submodule "hardware/KiCAD-Bild"]
 	path = hardware/KiCAD-Bild
-	url = git@github.com:lhr-solar/KiCAD-Bild.git
-[submodule "hardware/lib/KiCAD-Bild"]
-	path = hardware/lib/KiCAD-Bild
-	url = git@github.com:lhr-solar/KiCAD-Bild.git
+	url = https://github.com/lhr-solar/KiCAD-Sharepoint.git
