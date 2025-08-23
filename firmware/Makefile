@@ -18,6 +18,10 @@ NC=\033[0m # No Color
 TEST ?= main
 PROJECT_TARGET ?= stm32l431cbt
 
+ifndef VOLTTEMP_ID
+$(error VOLTTEMP_ID is not defined. Please provide what volttemp configuration to compile.)
+endif
+
 # source and include directories
 PROJECT_C_INCLUDES = $(wildcard */Inc)
 PROJECT_C_SOURCES = $(wildcard */Src/*.c)
