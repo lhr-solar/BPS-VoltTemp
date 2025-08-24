@@ -84,15 +84,15 @@ else
 endif
 
 build_code:
-ifndef VOLTTEMP_ID
-$(error VOLTTEMP_ID is not defined. Please provide what volttemp configuration to compile.)
+ifndef VOLTTEMP
+	$(error VOLTTEMP is not defined. Please provide a volttemp to build for. Run make help for more information.)
 endif
 ifneq ($(TEST), main)
 	@echo "Making ${PURPLE}$(PROJECT_TARGET)${NC}build for ${BLUE}TEST=${PURPLE} ${TEST}${NC}"
 else
 	@echo "Making ${PURPLE}$(PROJECT_TARGET)${NC}build with ${ORANGE}no test.${NC}"
 endif
-	$(BEAR_PREFIX) $(MAKE) -C $(BUILD_MAKEFILE_DIR) all -j
+	$(BEAR_PREFIX) $(MAKE) -C $(BUILD_MAKEFILE_DIR) VERBOSE=1 all -j
 	@echo "${BLUE}Compiled! Splendid! Jolly Good!!${NC}"
 #---------------------------------
 
@@ -105,20 +105,11 @@ flash:
 # Help
 .PHONY: help
 help:
-	@echo "Format: ${ORANGE}make  ${GREEN}PROJECT_TARGET=${PURPLE}<stm-target>${NC} ${BLUE}TEST=${PURPLE}<Test name>${NC}"
-	@echo "- Simply running '${ORANGE}make${NC}' or '${ORANGE}make${NC} all' will compile the production code."
-	@echo "- Specify ${GREEN}TARGET${NC}if different than default; ${BLUE}TEST${NC}is optional. \n"
-
-	@echo "${GREEN}PROJECT_TARGET${NC}( default is ${PURPLE}stm32f413rht${NC}):"
-	@echo "- Specify stm32 target by entering the full stm chip number.\n"
+	@echo "Format: ${ORANGE}make ${GREEN}VOLTTEMP=${PURPLE}<volttemp target (0-7)>${NC} ${BLUE}TEST=${PURPLE}<Test name>${NC}"
 
 	@echo "${BLUE}TEST${NC}( OPTIONAL ):"
 	@echo "- If you want to run a test, specify ${BLUE}TEST=${PURPLE}<Test name>${NC}, with ${PURPLE}<Test name>${NC}"
 	@echo "   being the exact name of the test file ${RED} without${NC} the .c suffix.\n"
-	@echo "PRINT_DEBUG:"
-	@echo "- For debugs, specify ${BLUE}PRINT_DEBUG=${PURPLE}true${NC}."
-	@echo "- For now, this will print the directories that will be compiled (can be useful for troubleshooting)."
-
 #-------------- 
 # Documentation
 # .PHONY: docs
