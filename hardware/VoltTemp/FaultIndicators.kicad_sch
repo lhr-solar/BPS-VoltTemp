@@ -1646,7 +1646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VoltTemp:WS2812B-2020"
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 120.65 60.96 0)
 			(effects
 				(font
@@ -1721,7 +1721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VoltTemp:WS2812B-2020"
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 85.09 60.96 0)
 			(effects
 				(font
@@ -1875,7 +1875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VoltTemp:WS2812B-2020"
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 156.21 60.96 0)
 			(effects
 				(font
@@ -2016,7 +2016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VoltTemp:WS2812B-2020"
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 120.65 104.14 0)
 			(effects
 				(font
@@ -2224,7 +2224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VoltTemp:WS2812B-2020"
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -2576,7 +2576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VoltTemp:WS2812B-2020"
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -2717,7 +2717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VoltTemp:WS2812B-2020"
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -2925,7 +2925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VoltTemp:WS2812B-2020"
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 191.77 60.96 0)
 			(effects
 				(font
