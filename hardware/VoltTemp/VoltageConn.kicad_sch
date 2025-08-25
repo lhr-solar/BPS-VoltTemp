@@ -1529,6 +1529,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.785 55.245) (xy 57.785 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be932c0-da0e-4f63-aad1-ffb144fa5937")
+	)
+	(wire
+		(pts
 			(xy 125.73 39.37) (xy 125.73 44.45)
 		)
 		(stroke
@@ -1559,7 +1569,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 53.34) (xy 49.53 53.34)
+			(xy 49.53 53.34) (xy 57.785 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2634,72 +2644,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 57.15 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "266f51ee-d860-4f21-b395-105fd884c543")
-		(property "Reference" "#PWR08"
-			(at 57.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 57.15 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 57.15 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdcd8caf-11a2-4d87-a5fa-f62600c309f1")
-		)
-		(instances
-			(project "BPS-Voltage_Temp_Board"
-				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/28ab9f86-06e3-4025-a371-5e4e53853fdc"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 166.37 62.23 0)
 		(unit 1)
@@ -3012,7 +2956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr0603-surface-mount-resettable-fuse-data-sheet-elx1047-en.pdf"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -3394,7 +3338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr0603-surface-mount-resettable-fuse-data-sheet-elx1047-en.pdf"
 			(at 88.9 45.72 0)
 			(effects
 				(font
@@ -3696,7 +3640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr0603-surface-mount-resettable-fuse-data-sheet-elx1047-en.pdf"
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -3774,7 +3718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr0603-surface-mount-resettable-fuse-data-sheet-elx1047-en.pdf"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -4341,6 +4285,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 57.785 55.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "daa1bcdc-2ff6-43f1-bbd7-6dcb01e23c2e")
+		(property "Reference" "#PWR08"
+			(at 57.785 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_Seg"
+			(at 55.245 59.309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.785 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.785 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 57.785 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c5805c4-327a-4bec-9041-604937f42a40")
+		)
+		(instances
+			(project "BPS-Voltage_Temp_Board"
+				(path "/286f0d93-2a80-4abf-b115-d33410b730c4/28ab9f86-06e3-4025-a371-5e4e53853fdc"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 135.89 71.12 0)
 		(unit 1)
@@ -4611,7 +4621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr0603-surface-mount-resettable-fuse-data-sheet-elx1047-en.pdf"
 			(at 88.9 55.88 0)
 			(effects
 				(font
