@@ -31,3 +31,8 @@ fp-info-cache
 *.csv
 
 .DS_Store
+replicate_layout.log
+
+build/
+.vscode/
+.vscode/compile_commands.json
