@@ -1497,6 +1497,14 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "5005"
+			(at 114.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f2f9047-1f2d-4311-b89e-7ed52670610a")
 		)
@@ -1842,6 +1850,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1053131107"
 			(at 165.1 68.58 0)
 			(effects
 				(font
@@ -2379,6 +2396,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "5005"
+			(at 134.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9056f999-659a-4fa8-a609-5f9e906560b1")
 		)
@@ -2445,6 +2471,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "5005"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41ed3637-1ee0-40b6-9ca1-1d0c1bf5ce45")
 		)
@@ -2503,6 +2538,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "5005"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -2636,6 +2680,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 135.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "5005"
 			(at 135.89 116.84 0)
 			(effects
 				(font
@@ -2781,6 +2834,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "5005"
 			(at 135.89 104.14 0)
 			(effects
 				(font
