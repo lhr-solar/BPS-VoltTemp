@@ -1525,7 +1525,7 @@
 		)
 		(uuid "f36c2d72-b013-40a7-9ded-773c6b18e490")
 	)
-	(label "GND_Seg"
+	(label "GND_Seg7"
 		(at 44.45 45.72 0)
 		(effects
 			(font
@@ -1635,7 +1635,7 @@
 		)
 		(uuid "657a1fd5-eed6-4352-8e21-9e5b8e398118")
 	)
-	(label "GND_Seg"
+	(label "GND_Seg8"
 		(at 44.45 68.58 0)
 		(effects
 			(font

@@ -3458,7 +3458,7 @@
 	(footprint "UTSVT_Logos:LHRs_LOGO"
 		(layer "F.Cu")
 		(uuid "55a710c9-95eb-45c5-8423-2c0d9f5e6354")
-		(at 118 77.36)
+		(at 118.5 78)
 		(property "Reference" "LOGO2"
 			(at 2.286 8.128 0)
 			(layer "F.SilkS")
