@@ -2083,6 +2083,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "105-2210-201"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55b12c0d-9523-47c7-82b2-c3dc4489b3e1")
 		)
@@ -2279,6 +2288,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "105-2210-201"
+			(at 33.02 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1ff7913-4983-4949-ac47-3d2ef76fb1d3")
 		)
@@ -2427,6 +2445,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "105-2210-201"
+			(at 59.69 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6997c701-61f5-4996-9074-84c0b8f02a98")
 		)
@@ -2564,7 +2591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57e0e620-faa6-4f80-8607-59acefbd548f")
-		(property "Reference" "SW1"
+		(property "Reference" "VOLT1"
 			(at 93.98 33.02 0)
 			(effects
 				(font
@@ -2572,7 +2599,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT_VOLT1"
+		(property "Value" "SW_SPDT"
 			(at 93.98 35.56 0)
 			(effects
 				(font
@@ -2607,6 +2634,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "OS102011MS2Q"
+			(at 93.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccec0dcf-681b-4be8-b9b4-c3ef80d128d4")
 		)
@@ -2619,7 +2655,7 @@
 		(instances
 			(project "Scrutineering"
 				(path "/1bd27d0d-b5e6-43a9-9122-71eb8007bcd4"
-					(reference "SW1")
+					(reference "VOLT1")
 					(unit 1)
 				)
 			)
@@ -3120,6 +3156,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "105-2210-201"
+			(at 33.02 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15e2b4c1-210b-4b00-a31c-e034fa0048ee")
 		)
@@ -3142,7 +3187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a51af25e-1d00-4fe7-96e6-2a9e7ed446a5")
-		(property "Reference" "SW2"
+		(property "Reference" "VOLT2"
 			(at 93.98 58.42 0)
 			(effects
 				(font
@@ -3150,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT_VOLT2"
+		(property "Value" "SW_SPDT"
 			(at 93.98 60.96 0)
 			(effects
 				(font
@@ -3185,6 +3230,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "OS102011MS2Q"
+			(at 93.98 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f29b4bea-d7f9-4f2d-8fe5-0af368c1e3fb")
 		)
@@ -3197,7 +3251,7 @@
 		(instances
 			(project "Scrutineering"
 				(path "/1bd27d0d-b5e6-43a9-9122-71eb8007bcd4"
-					(reference "SW2")
+					(reference "VOLT2")
 					(unit 1)
 				)
 			)
@@ -3251,6 +3305,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 59.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "105-2210-201"
+			(at 59.69 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,6 +3464,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "105-2210-201"
 			(at 114.3 69.85 0)
 			(effects
 				(font
@@ -3793,7 +3865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff13e3e-435d-425a-b2f1-421084c7cd30")
-		(property "Reference" "SW3"
+		(property "Reference" "TEMP1"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -3801,7 +3873,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT_TEMP1"
+		(property "Value" "SW_SPDT"
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -3836,6 +3908,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "OS102011MS2Q"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3d2b4b9-5de0-4b73-bc98-bc834435bf23")
 		)
@@ -3848,7 +3929,7 @@
 		(instances
 			(project "Scrutineering"
 				(path "/1bd27d0d-b5e6-43a9-9122-71eb8007bcd4"
-					(reference "SW3")
+					(reference "TEMP1")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9f7f4f1-14fb-4e62-94cb-27eddbef720e")
-		(property "Reference" "SW4"
+		(property "Reference" "TEMP2"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -3872,7 +3953,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT_TEMP2"
+		(property "Value" "SW_SPDT"
 			(at 118.11 114.3 0)
 			(effects
 				(font
@@ -3907,6 +3988,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "OS102011MS2Q"
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cf6fe70-4a8d-4da4-9fed-d41f27a329ac")
 		)
@@ -3919,7 +4009,7 @@
 		(instances
 			(project ""
 				(path "/1bd27d0d-b5e6-43a9-9122-71eb8007bcd4"
-					(reference "SW4")
+					(reference "TEMP2")
 					(unit 1)
 				)
 			)

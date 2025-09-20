@@ -959,6 +959,19 @@
 				)
 			)
 		)
+		(property "P/N" "105-2210-201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "562cd6dd-1ac6-416d-98a1-54f5f72be325")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/226f8f25-4baf-484a-b856-9c344379c8b7")
 		(sheetname "/")
@@ -1005,7 +1018,7 @@
 		(at 99.5 100.708106 90)
 		(descr "CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf")
 		(tags "switch SPDT")
-		(property "Reference" "SW2"
+		(property "Reference" "VOLT2"
 			(at 3.99 -2.99 90)
 			(layer "F.SilkS")
 			(uuid "e05872fd-809e-4cd7-8c7c-04b444b004c5")
@@ -1016,7 +1029,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT_VOLT2"
+		(property "Value" "SW_SPDT"
 			(at 2 3 90)
 			(layer "F.Fab")
 			(uuid "6e27bb94-e398-40a3-9182-2398d23606be")
@@ -1061,6 +1074,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "OS102011MS2Q"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96dc2f0f-1623-4f1c-8a01-2657f0f938a9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2278,6 +2304,19 @@
 				)
 			)
 		)
+		(property "P/N" "105-2210-201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62ec1b91-1f2c-4bca-b7e6-4f3ef35a18af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b1fa2e57-6646-44f6-a30f-90fb8ee64d68")
 		(sheetname "/")
@@ -2368,6 +2407,19 @@
 				)
 			)
 		)
+		(property "P/N" "105-2210-201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e2d408d-c6a6-419c-88f4-b8711a935b07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a74f7496-8edb-4fe0-95af-4bd937bff7e3")
 		(sheetname "/")
@@ -2454,6 +2506,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "105-2210-201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d28ea25-6b9c-43c3-a6c7-f404ff39fa64")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3106,7 +3171,7 @@
 		(at 99.5 60.4 90)
 		(descr "CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf")
 		(tags "switch SPDT")
-		(property "Reference" "SW1"
+		(property "Reference" "VOLT1"
 			(at 3.99 -2.99 90)
 			(layer "F.SilkS")
 			(uuid "66b0e287-4a0d-421d-a878-f13bc05713a3")
@@ -3117,7 +3182,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT_VOLT1"
+		(property "Value" "SW_SPDT"
 			(at 2 3 90)
 			(layer "F.Fab")
 			(uuid "5bc53c28-c555-4851-9c46-77ae6967ee79")
@@ -3162,6 +3227,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "OS102011MS2Q"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dcd49cf-199d-447c-b67b-af072654dc23")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4760,7 +4838,7 @@
 		(at 119.25 60 90)
 		(descr "CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf")
 		(tags "switch SPDT")
-		(property "Reference" "SW4"
+		(property "Reference" "TEMP2"
 			(at 3.99 -2.99 90)
 			(layer "F.SilkS")
 			(uuid "b2c7ec53-bad9-4b2d-9155-00ccc15c2364")
@@ -4771,7 +4849,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT_TEMP2"
+		(property "Value" "SW_SPDT"
 			(at 2 3 90)
 			(layer "F.Fab")
 			(uuid "a69fcb6f-8164-49b6-ba83-cc21d61e8dff")
@@ -4816,6 +4894,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "OS102011MS2Q"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4980fe93-e95b-4f5f-88e1-5ce25ac8db81")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5419,6 +5510,19 @@
 				)
 			)
 		)
+		(property "P/N" "105-2210-201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ed293d4-46a1-4bac-ab72-945ff2a25754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8e10cafc-7b72-434d-8baf-0ad9ae64b070")
 		(sheetname "/")
@@ -5465,7 +5569,7 @@
 		(at 118.86 100.9 90)
 		(descr "CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf")
 		(tags "switch SPDT")
-		(property "Reference" "SW3"
+		(property "Reference" "TEMP1"
 			(at 3.99 -2.99 90)
 			(layer "F.SilkS")
 			(uuid "01f31c90-b1fd-44c4-944f-1935cbf737e9")
@@ -5476,7 +5580,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT_TEMP1"
+		(property "Value" "SW_SPDT"
 			(at 2 3 90)
 			(layer "F.Fab")
 			(uuid "b81b0df7-b149-41bd-b416-3a8bdf9ab6d9")
@@ -5521,6 +5625,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "OS102011MS2Q"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d34f68ee-0a1b-4ffc-bd0c-898d0d5251c7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6320,6 +6437,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "105-2210-201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cad59085-4f11-4871-9e6d-656a3c648bec")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
