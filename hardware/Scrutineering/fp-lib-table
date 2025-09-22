@@ -7,4 +7,5 @@
   (lib (name "UTSVT_Power")(type "KiCad")(uri "${KIPRJMOD}/../lib/KiCAD-Sharepoint/UTSVT_Power.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Special")(type "KiCad")(uri "${KIPRJMOD}/../lib/KiCAD-Sharepoint/UTSVT_Special.pretty")(options "")(descr ""))
   (lib (name "VoltTemp")(type "KiCad")(uri "${KIPRJMOD}/../lib/VoltTemp.pretty")(options "")(descr ""))
+  (lib (name "Scrutineering")(type "KiCad")(uri "${KIPRJMOD}/../lib/Scrutineering.pretty")(options "")(descr ""))
 )
