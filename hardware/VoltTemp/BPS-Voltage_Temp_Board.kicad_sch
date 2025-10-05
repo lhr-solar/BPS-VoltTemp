@@ -3579,16 +3579,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 34.29) (xy 69.85 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eff19be-195b-4ccc-bff5-390e6d623ce9")
-	)
-	(wire
-		(pts
 			(xy 208.28 134.62) (xy 207.01 135.89)
 		)
 		(stroke
@@ -3596,6 +3586,16 @@
 			(type default)
 		)
 		(uuid "43c42ae7-eee8-49eb-8a17-8f8d04904c6d")
+	)
+	(wire
+		(pts
+			(xy 55.88 34.29) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b368be-a312-472b-be57-be0b83bf2208")
 	)
 	(wire
 		(pts
@@ -3629,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 81.28) (xy 55.88 81.28)
+			(xy 55.88 81.28) (xy 63.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3806,6 +3806,16 @@
 			(type default)
 		)
 		(uuid "696ecc3d-5859-43da-a0e0-51c54862449c")
+	)
+	(bus
+		(pts
+			(xy 55.88 67.31) (xy 69.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ba833b-06ca-4cef-b23d-7a7f9913df40")
 	)
 	(wire
 		(pts
@@ -4137,6 +4147,16 @@
 		)
 		(uuid "aa016d75-4af6-4e88-b5f8-70de2a0b3465")
 	)
+	(wire
+		(pts
+			(xy 57.15 52.07) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeaf2dde-fcdc-401c-90ce-5d7ca7df0803")
+	)
 	(bus
 		(pts
 			(xy 121.92 68.58) (xy 120.65 67.31)
@@ -4317,16 +4337,6 @@
 		)
 		(uuid "ca6aa263-fada-4e71-ad10-ceaa87dc4518")
 	)
-	(bus
-		(pts
-			(xy 48.26 67.31) (xy 69.85 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6b9955-5237-40bb-8b8d-b336fa92cf16")
-	)
 	(wire
 		(pts
 			(xy 185.42 59.69) (xy 195.58 59.69)
@@ -4366,6 +4376,16 @@
 			(type default)
 		)
 		(uuid "cfea64a8-053d-41a2-a452-8f56f3bc11b5")
+	)
+	(bus
+		(pts
+			(xy 55.88 30.48) (xy 69.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1cdb006-90a7-4b38-8880-26151d6f7720")
 	)
 	(wire
 		(pts
@@ -4536,16 +4556,6 @@
 			(type default)
 		)
 		(uuid "f02c71f6-bfcd-460f-ad8e-1901ecae1114")
-	)
-	(bus
-		(pts
-			(xy 48.26 30.48) (xy 69.85 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0b8a0b0-92ca-4e8b-b1e3-cd8f5fc59c85")
 	)
 	(wire
 		(pts
@@ -7522,7 +7532,25 @@
 			"NgBSAHAAUwBTAHEAUgBWAHEAcABCAG0AQwB5AGkARwByADcAagBtAGUAcgBXAGYAeQB0ACsATgBG"
 			"AEsAMAAyAFkAcgBVAEcAUAAxAG0AQQBYAEwAZAA2AE4ARwBxAHIARwBvAHgAOQBCADEAdgBXADYA"
 			"aAA3AFgAWgBvADQAYgBUAEEAaQBHAEYARAArAGEALwBnAEgAWABmAGEAbQBmADkAVABhAEsATgBQ"
-			"AFYARABFAHUARgBSAGUAZgB2AGYAZgBkAG4AeQBIAFAAUABmAFUARQByAGIAdg=="
+			"AFYARABFAHUARgBSAGUAZgB2AGYAZgBkAG4AeQBIAFAAUABmAFUARQByAGIAdkYuRmFiIiApKHV1"
+			"aWQgIjU3MzkxMzIwLThmZWEtNGU2MC05YTNmLTIyMWM3M2Y2ZWNkNCIpKShmcF9saW5lIChzdGFy"
+			"dCAtNC42NDgyIC0yLjA1NzQpIChlbmQgLTQuNjQ4MiAtMi41NCkoc3Ryb2tlICh3aWR0aCAwLjE1"
+			"MjQpICh0eXBlIHNvbGlkKSkobGF5ZXIgIkYuRmFiIiApKHV1aWQgImMyY2Q0NDc3LThlNDMtNGYz"
+			"MC1hZjg4LTA5MjI5NTg5OGRlNSIpKShmcF9saW5lIChzdGFydCA0LjY0ODIgLTIuNTQpIChlbmQg"
+			"NC42NDgyIC0yLjA1NzQpKHN0cm9rZSAod2lkdGggMC4xNTI0KSAodHlwZSBzb2xpZCkpKGxheWVy"
+			"ICJGLkZhYiIgKSh1dWlkICJlMGQ4OWM5NC1hMjEzLTQxZDktOTE2ZS1mMWI0NjU2YWI3NzQiKSko"
+			"ZnBfbGluZSAoc3RhcnQgNC42NDgyIC0yLjA1NzQpIChlbmQgNS4xNTYyIC0yLjA1NzQpKHN0cm9r"
+			"ZSAod2lkdGggMC4xNTI0KSAodHlwZSBzb2xpZCkpKGxheWVyICJGLkZhYiIgKSh1dWlkICJlMzg2"
+			"YzE2ZS05N2MyLTRmZjMtYTJkOC0wODMwOWZlMmZiOGMiKSkoZnBfbGluZSAoc3RhcnQgNC42OTkg"
+			"Mi4wNTc0KSAoZW5kIDQuNjk5IDIuNTQpKHN0cm9rZSAod2lkdGggMC4xNTI0KSAodHlwZSBzb2xp"
+			"ZCkpKGxheWVyICJGLkZhYiIgKSh1dWlkICJhYjBlMTFkNi00ZDYzLTRkMzctODMzZC05M2VhOTI5"
+			"ZTlhOWQiKSkoZnBfbGluZSAoc3RhcnQgNC42OTkgMi41NCkgKGVuZCAtNC42OTkgMi41NCkoc3Ry"
+			"b2tlICh3aWR0aCAwLjE1MjQpICh0eXBlIHNvbGlkKSkobGF5ZXIgIkYuRmFiIiApKHV1aWQgImVj"
+			"MzNkYzYzLWE4Y2UtNDhmMC05NTliLWI5NzM1NGFmNjBhNSIpKShmcF9saW5lIChzdGFydCA1LjE1"
+			"NjIgLTIuMDU3NCkgKGVuZCA1LjY4OTYgLTEuNTQ5NCkoc3Ryb2tlICh3aWR0aCAwLjE1MjQpICh0"
+			"eXBlIHNvbGlkKSkobGF5ZXIgIkYuRmFiIiApKHV1aWQgIjRjN2VjNjQ5LTRlZmQtNDc0ZS04Nzdl"
+			"LTAzYThiNDA2YTA5MSIpKShmcF9saW5lIChzdGFydCA1LjY4OTYgLTEuNTQ5NCkgKGVuZCA1LjY4"
+			"OTYgMi4wNTc0KShzdHJva2UgKHdpZHRoIDAuMTUyNCkgKHR5cGUgc29saWQpKQ=="
 		)
 	)
 	(table
@@ -8723,7 +8751,7 @@
 		(uuid "186c3138-2591-4fe5-b2a1-96b4e9f40480")
 	)
 	(label "LedDin"
-		(at 55.88 81.28 180)
+		(at 63.5 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8791,6 +8819,16 @@
 			(justify right bottom)
 		)
 		(uuid "3c610769-6a8c-4d61-83af-da5c230391c2")
+	)
+	(label "ShieldGND"
+		(at 57.15 52.07 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "40febb0f-e4de-4579-b15e-d55149347ec6")
 	)
 	(label "bmsAlert"
 		(at 271.78 78.74 180)
@@ -13124,7 +13162,7 @@
 	)
 	(sheet
 		(at 25.4 46.99)
-		(size 22.86 10.16)
+		(size 30.48 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13196,6 +13234,16 @@
 				(justify left)
 			)
 		)
+		(pin "ShieldGND" input
+			(at 55.88 52.07 0)
+			(uuid "1d169576-4d50-4a4b-beb3-f07d19ba32a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "BPS-Voltage_Temp_Board"
 				(path "/286f0d93-2a80-4abf-b115-d33410b730c4"
@@ -13206,7 +13254,7 @@
 	)
 	(sheet
 		(at 25.4 27.94)
-		(size 22.86 12.7)
+		(size 30.48 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13238,7 +13286,7 @@
 			)
 		)
 		(pin "VC[0..5]" output
-			(at 48.26 30.48 0)
+			(at 55.88 30.48 0)
 			(uuid "36196e87-bbe6-490e-94bc-b2b5681f5894")
 			(effects
 				(font
@@ -13248,7 +13296,7 @@
 			)
 		)
 		(pin "last_cell" output
-			(at 48.26 34.29 0)
+			(at 55.88 34.29 0)
 			(uuid "d7ff4b43-5a10-44a4-8e7d-729d78db21a7")
 			(effects
 				(font
@@ -13378,7 +13426,7 @@
 	)
 	(sheet
 		(at 25.4 63.5)
-		(size 22.86 7.62)
+		(size 30.48 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13410,7 +13458,7 @@
 			)
 		)
 		(pin "rawTemperature[1..5]" bidirectional
-			(at 48.26 67.31 0)
+			(at 55.88 67.31 0)
 			(uuid "930751c0-0087-427f-8917-ff757ef32883")
 			(effects
 				(font
@@ -13449,7 +13497,7 @@
 	)
 	(sheet
 		(at 25.4 78.74)
-		(size 22.86 5.08)
+		(size 30.48 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13473,7 +13521,7 @@
 			)
 		)
 		(property "Sheetfile" "FaultIndicators.kicad_sch"
-			(at 25.4 84.6586 0)
+			(at 25.4 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13482,7 +13530,7 @@
 			)
 		)
 		(pin "LedDin" input
-			(at 48.26 81.28 0)
+			(at 55.88 81.28 0)
 			(uuid "243393bd-6320-4639-bdc7-783d22a4d620")
 			(effects
 				(font
